@@ -1,0 +1,39 @@
+/* Estilos personalizados */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+  
+  .jumbotron {
+    background-color: #007bff;
+  }
+  
+  .section-heading {
+    color: #333;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  #contacto p {
+    margin-bottom: 5px;
+  }
+  
