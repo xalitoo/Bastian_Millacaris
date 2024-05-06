@@ -1,13 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APPLE BASTIAN</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>telefonos</h1>
-    
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Empresa de Telefonía</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#productos">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Bienvenido a nuestra empresa de telefonía</h1>
+      <p class="lead">Descubre nuestra gama de productos.</p>
+    </div>
+  </header>
+
+  <section id="productos" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Nuestros Productos</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="13.png" class="card-img-top" alt="Teléfono 1">
+            <div class="card-body">
+              <h5 class="card-title">Iphone 13</h5>
+              <p class="card-text">Pantalla Super Retina XDR de 6,1 pulgadas. <br>
+                Sistema de dos cámaras para lograr fotos y videos increíbles con poca luz. <br>
+                Chip A15 Bionic con GPU de 4 núcleos para un rendimiento ultra rápido. <br>
+                Ceramic Shield y resistencia al agua y al polvo nota a pie de página. <br>
+                5G para descargas súper rápidas y streaming de alta calidad nota a pie de página.</p>
+              <a href="https://www.apple.com/cl/shop/buy-iphone/iphone-13" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="14.png" class="card-img-top" alt="Teléfono 2">
+            <div class="card-body">
+              <h5 class="card-title">Iphone 14</h5>
+              <p class="card-text">Diseño resistente de 6,1 pulgadas¹ con Ceramic Shield y resistencia al agua y al polvo. <br>
+                Batería para todo el día que ofrece hasta 20 horas de reproducción de video. <br>
+                Funcionalidades de seguridad innovadoras, como Detección de Choques. <br>
+                Cámara gran angular de nivel profesional con procesamiento de imágenes avanzado para tomar fotos espectaculares con cualquier luz. <br>
+                A15 Bionic, el mismo chip súper rápido del iPhone 13 Pro.</p>
+              <a href="https://www.apple.com/cl/shop/buy-iphone/iphone-14" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="15.png" class="card-img-top" alt="Teléfono 3">
+            <div class="card-body">
+              <h5 class="card-title">Iphone 15</h5>
+              <p class="card-text">Diseño resistente de 6,1 pulgadas de vidrio con infusión de color y aluminio nota a pie de página ◊, y frente de Ceramic Shield. <br>
+                La Dynamic Island muestra alertas y Actividades en Vivo para que no te pierdas nada mientras haces otras cosas. <br>
+                Cámara gran angular de 48 MP con teleobjetivo de 2x para tomar fotos increíblemente detalladas de cerca y de lejos. <br>
+                El chip A16 Bionic potencia la fotografía computacional y te permite disfrutar un excelente rendimiento en videojuegos con gran eficiencia para que la batería te dure todo el día
+                Se conecta y se carga con cable USB-C.</p>
+              <a href="https://www.apple.com/cl/shop/buy-iphone/iphone-15" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Contacto</h2>
+          <p class="mb-4">Puedes contactarnos en: Instagram.applebasti.com</p>
+          <p>Email: ventasapple@gmail.com</p>
+          <p>Teléfono: +56985877123</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark py-4 text-white">
+    <div class="container text-center">
+      <p>&copy; 2024 Empresa de Telefonía. Todos los derechos reservados by Bastian.</p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
